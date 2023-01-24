@@ -1,0 +1,117 @@
+.visas{
+    width: 1200px;
+}
+.main {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+.meniu {
+display: flex;
+list-style: none;
+
+justify-self: end;
+gap: 20px;
+   
+}
+.didziosiomis{
+    text-transform: uppercase;
+}
+.paryskintas {
+color: red;
+}
+.meniu .li{
+    padding: 5px;
+}
+.meniu1 {
+  
+
+    gap:28px;
+    justify-content: flex-end;
+align-items: center;
+
+       
+    }
+.virsus {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 1200px;
+
+}
+.spalvotas {
+    background-image: url("background.svg");
+    padding: 50px;
+    border-radius: 20px;   
+
+}
+.spalvotas .pastraipa1 {
+   font-size: 40pt;
+   font: Inter;
+}
+.spalvotas .pastraipa2 {
+    font-size: 20pt;
+ }
+.press {
+    
+    justify-content: space-between; 
+}
+.press .img {
+    height: 20px;
+
+}
+.aprasymai {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+
+}
+.elementai {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+.elementas {
+    padding: 0px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+}
+.divider {
+    height: 2px;
+    background-color: rgb(91, 89, 89);
+    margin: 4px;
+}
+.mygtukas{
+    background-color: transparent;
+    border-style: solid;
+    border-color: #d14883;
+    border-width: 3px;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+  } 
+  .apacia {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .apacia_sonas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .apacia_li {
+    list-style: none; 
+    padding: 0px;
+    
+ }
+ .Headeris {
+    text-transform: uppercase;
+ }
+ .copyright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+ }
+ .desine {
+    justify-self: end;
+ }
